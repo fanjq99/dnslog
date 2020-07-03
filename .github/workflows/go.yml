@@ -1,4 +1,4 @@
-name: Go
+name: dnslog
 
 on:
   push:
@@ -21,8 +21,4 @@ jobs:
 
 
     - name: Build
-      run: |
-        pwd
-        cd cmd
-        go build
-        mv cmd dnslog
+      run: pwd 
