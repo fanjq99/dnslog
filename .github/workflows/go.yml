@@ -21,4 +21,4 @@ jobs:
 
 
     - name: Build
-      run: pwd && ls
+      run: go build cmd/main.go
