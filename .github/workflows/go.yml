@@ -21,4 +21,8 @@ jobs:
 
 
     - name: Build
-      run: go build cmd
+      run: |
+        pwd
+        cd cmd
+        go build
+        mv cmd dnslog
