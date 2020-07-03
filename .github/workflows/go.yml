@@ -21,4 +21,4 @@ jobs:
 
 
     - name: Build
-      run: pwd && ll
+      run: pwd && ls
