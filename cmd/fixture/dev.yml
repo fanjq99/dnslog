@@ -1,0 +1,16 @@
+# dns域名
+dns_domain: xxx.xxx
+
+#服务器对外ip
+server_ip: 127.0.0.1
+
+#key save time,单位秒
+save_time: 300
+
+api_addr: "127.0.0.1:8888"
+
+# redis 配置
+redis:
+  addr: 127.0.0.1:6379 #ip:port
+  password: xxx
+  database: 0
