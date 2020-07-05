@@ -103,7 +103,7 @@ func (h *Handler) do(netType string, w dns.ResponseWriter, req *dns.Msg) {
 		_ = w.WriteMsg(m)
 
 		if rmd != "" {
-			err := h.redisClient.Set(rmd, remoteIp.String(), time.Duration(h.setting.SaveTime)*time.Second)
+			err := h.redisClient.Set(rmd, remoteIp.String(), time.Duration(h.setting.SaveTime)*time.Second).Err()
 			if err != nil {
 				log.Error(err)
 			}
