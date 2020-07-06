@@ -1,6 +1,4 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
-git-open.qianxin-inc.cn/CBB/coach/golib v0.0.0-20200702064445-8b918e448fee h1:W/C02eOi1tfs78ZF5tVbGTYfR0zE2GvhQpps68OtXCY=
-git-open.qianxin-inc.cn/CBB/coach/golib v0.0.0-20200702064445-8b918e448fee/go.mod h1:q4dx91nw4mPwmf+43QKb+Q6G19mFA3C+QSmT1hAPUtc=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/PuerkitoBio/goquery v1.5.1/go.mod h1:GsLWisAFVj4WgDibEWF4pvYnkVQBpKBKeU+7zCJoLcc=
 github.com/andybalholm/cascadia v1.1.0/go.mod h1:GsXiBklL0woXo1j/WYWtSYYC4ouU9PqHO0sqidkEA4Y=
